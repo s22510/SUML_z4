@@ -2,4 +2,4 @@
 
 link:
 
-    https://sumlz4-lg9pnc5ynpbcdjvaskxna3.streamlit.app/
+    https://sumlz4-z4rkbjjknwfxq5vf74on4y.streamlit.app/
