@@ -15,7 +15,7 @@ from pathlib import Path
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
-filename = os.path.join(os.path.dirname(__file__), 'model.sv')
+filename = 'model.sv'
 model = pickle.load(open(filename, 'rb'))
 # otwieramy wcześniej wytrenowany model
 
@@ -23,7 +23,7 @@ embarked_d = {0: "Cherbourg", 1: "Queenstown", 2: "Southampton"}
 
 sex_d = {0: "Kobieta", 1: "Mezczyzna"}
 pclass_d = {0: "Klasa Pierwsza", 1: "Klasa Druga", 2: "Klasa Trzecia"}
-filename2 = os.path.join(os.path.dirname(__file__), 'DSP_1.csv')
+filename2 = 'DSP_1.csv'
 base_data = pd.read_csv(filename2)
 
 def main():
